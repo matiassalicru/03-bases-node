@@ -11,7 +11,7 @@ console.clear();
 // console.log(base);
 
 // const base = 2;
-console.log(argv);
+// console.log(argv);
 crearArchivoTabla(argv.b, argv.l, argv.h)
 	.then(nombreArchivo => console.log(`${nombreArchivo} Creado!`))
 	.catch(err => console.log(err));
